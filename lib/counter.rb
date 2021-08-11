@@ -1,5 +1,5 @@
 class Counter
-  attr_reader :count, :time_last_update
+  attr_reader :count
 
   def initialize
     @count = 0
@@ -21,7 +21,7 @@ class Counter
     @count = 0
   end
 
-  def time
+  def timezzz
     Time.new
   end
 
